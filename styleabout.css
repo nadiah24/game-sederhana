@@ -1,0 +1,114 @@
+body {
+    background-color: #ffe4ec;
+    color: #a61e4d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  h1 {
+    color: #d63384;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .content {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff0f6;
+    border-radius: 20px;
+    padding: 30px 40px;
+    box-shadow: 0 8px 20px rgba(214, 51, 132, 0.3);
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  ul {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  ul li {
+    margin-bottom: 10px;
+  }
+  .highlight {
+    font-weight: 600;
+    color: #d6336c;
+  }
+  .btn-pink {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0 auto;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  .btn-pink:hover {
+    background-color: #a61e4d;
+    color: white;
+    text-decoration: none;
+  }
+  .cr {
+    color: #d689a4;
+  }
+  #tentang {
+    scroll-margin-top: 100px;
+  }
+
+  #cara {
+    scroll-margin-top: 100px;
+  }
+
+  #credit {
+    scroll-margin-top: 100px;
+  }
+
+  #teknologi {
+    scroll-margin-top: 100px;
+  }
+
+  .custom-navbar {
+    background-color: #fff0f6;
+    box-shadow: 0 4px 12px rgba(214, 51, 132, 0.15);
+    padding: 10px 20px;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .text-brand {
+    color: #d63384;
+    font-size: 24px;
+  }
+  
+  .text-brand:hover {
+    color: #a61e4d;
+  }
+  
+  .navbar-toggler {
+    border-color: #d63384;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23d63384' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28214, 51, 132, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  .custom-link {
+    color: #a61e4d;
+    font-weight: 600;
+    margin-left: 15px;
+    transition: color 0.3s;
+  }
+  
+  .custom-link:hover {
+    color: #d63384;
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,71 @@
+body {
+    background-color: #ffe4ec;
+    color: #a61e4d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+
+h1 {
+    color: #d63384;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h5 {
+  color: #ad1457;
+  font-weight: 600;
+}
+
+.btn-pink {
+  background-color: #e91e63;
+  color: white;
+  padding: 12px 36px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: none;
+}
+
+.btn-pink:hover {
+  background-color: #c2185b;
+  box-shadow: 0 4px 12px rgba(194, 24, 91, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+.btn-pink:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(233, 30, 99, 0.5);
+}
+
+.container {
+  max-width: 560px;
+  margin-top: 5rem;
+}
+
+.row.text-section {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.row.button-section {
+  justify-content: center;
+  gap: 2rem;
+}
+
+img {
+    max-width: 100%;  /* agar gambar tidak melebar melebihi container */
+    height: auto;     /* agar proporsional */
+    border-radius: 12px; /* opsional, buat sudut gambar agak melengkung */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* supaya gambar berada di tengah */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* opsional, memberi efek bayangan */
+}
