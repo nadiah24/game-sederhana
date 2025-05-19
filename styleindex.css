@@ -1,6 +1,6 @@
 body {
     background-color: #ffeff4;
-    color: #a61e4d;
+    color: #d63384;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
     display: flex;
@@ -17,12 +17,12 @@ h1 {
 }
 
 h5 {
-  color: #ad1457;
+  color: #d63384;
   font-weight: 600;
 }
 
 .btn-pink {
-  background-color: #e91e63;
+  background-color: #d63384;
   color: white;
   padding: 12px 36px;
   font-size: 1.1rem;
